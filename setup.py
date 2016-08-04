@@ -3,7 +3,7 @@ from setuptools import setup
 from greenery import __version__
 
 setup(
-	name = "greenery",
+	name = "tr-greenery",
 	version = __version__,
 	tests_require = [ "pytest" ],
 	packages = [ "greenery" ],
