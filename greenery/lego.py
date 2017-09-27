@@ -392,7 +392,8 @@ class anchor(lego):
 
 	@classmethod
 	def match(cls, string, i = 0):
-		for _anchor, value in anchors.iteritems():
+		for _anchor in anchors:
+			value = anchors[_anchor]
 			try:
 				return _anchor, static(string, i, value)
 			except nomatch:
