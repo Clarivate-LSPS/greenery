@@ -9,7 +9,7 @@ setup(
 	packages = [ "greenery" ],
 	package_dir = { "greenery": "greenery" },
 	author = "ferno",
-	author_email = "ferno <ferno.code@gmail.com>",
+	author_email = "ferno.code@gmail.com",
 	description = "Greenery allows manipulation of regular expressions as finite state machines",
 	license = "MIT License",
 	keywords = "re regex regexp regular expression deterministic finite state machine automaton fsm dfsm fsa dfsa greenery",
